@@ -1,0 +1,253 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .section1-signup {
+    width: 45%;
+    float: left;
+}
+
+.section2-signup {
+    width: 55%;
+    float: left;
+}
+
+/* .content-container {
+  background-image: url('path/to/your/image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px; 
+} */
+  
+  .signup-form {
+    width: 1250px; 
+    height: 100vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+
+  .heading-signup{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 95px;
+    font-weight: bolder;
+    width:500px;
+    height:50px;
+  }
+
+
+  .content-signup{
+    font-size: 16px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    width:400px;
+    height: 50px;
+  }
+
+  .form-heading{
+    align-items: center;
+  }
+
+  input {
+    padding: 11px;
+    font-size: 14px;
+    border: 1px solid #181818;
+    border-radius: 20px;
+    display: block;
+
+  }
+
+  input[type="name"],input[type="email"],input[type="password"]  {
+  width: calc(26% - 20px); 
+   margin: 30px;
+   margin-left: 78px;
+   padding-left: 19px;
+  }
+  
+  .forgot-pass{
+    margin-left: 300px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .submit-button
+  {
+    width: calc(29% - 20px); 
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background-color: transparent;
+    margin-left: 62px;
+  }
+  
+  .submit-button input {
+    width: calc(115% - 20px);
+    outline: none; 
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    margin-top: -5px;
+    cursor: pointer;
+  }
+
+  .line-container {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-left:58px ;
+    margin-top: 20px;
+  }
+  
+  .horizontal-line {
+    flex: 1;
+    height: 1px;
+    background-color: #adadad;
+    margin: 0 10px; 
+  }
+  .or-sec {
+    color: #2b2929; 
+    font-size: 14px;
+  }
+
+  .row{
+    width: 15%;
+    display: flex;
+    margin-top: -100px;
+    margin-left: 150px;
+  }
+
+  .column{
+    flex: 1;
+    height: 25px;
+  }
+
+  .logo-img{
+    /* max-width: 50px; */
+    max-height: 50px;
+    display: block;
+    cursor: pointer;
+  }
+
+   .link-para-signup{
+    margin-left:140px ;
+    margin-top: 90px;
+  }
+
+  .link-para a{
+    display: inline-block;
+    text-decoration: none;
+    color: #28a745;
+    font-weight: 450;
+   
+  }
+
+  .image-container-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    right: 2%; 
+    position: relative;
+    width: 650px;
+  }
+  
+  .image-container-signup img {
+    width: 560px;
+    height: 390px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(171, 171, 171, 0.731);
+  }
+  
+  .pic-text-overlay-signup {
+    position: absolute;
+    margin-left: 62px;
+    font-weight: 400;
+    font-size: 18px;
+    top: 85%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: rgb(2, 2, 2);
+    text-align: center;
+  }
+  
+  /* @media only screen and (max-width: 768px) {
+    .section1 {
+        width: 100%;
+        float: none;
+    }
+
+    .section2 {
+        width: 100%;
+        float: none;
+    }
+
+    .login-form {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .heading {
+        margin-left: 20px;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .content {
+        margin-left: 20px;
+        text-align: center; 
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+
+    .forgot-pass {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .submit-button {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+
+    .line-container {
+        width: 100%;
+        margin-left: 20px;
+        text-align: center; 
+    }
+
+    .row {
+        width: 100%;
+        margin-left: 20px;
+        justify-content: center; 
+    }
+
+    .link-para {
+        margin-left: 20px;
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .logo-img {
+        margin-top: 20px; 
+    }
+} */

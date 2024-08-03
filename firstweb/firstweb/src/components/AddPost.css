@@ -1,0 +1,47 @@
+.topSection
+{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+.PostForm{
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.formLabel{
+
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.formInput{
+    border-radius: 10px;
+    width: 400px;
+    
+}
+.formSubmit{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #e89301;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+input[type="file"] {
+    background-color: #e89301;
+}
+
